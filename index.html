@@ -1320,6 +1320,11 @@ function rMeses(){
   return l;
 }
 
+var CAUSAS_RET = [
+  'Contrato fijo','Cambio de plan','Falta de seguimiento en cobro',
+  'Encontro algo mas barato','No se cumplio promesa al cliente',
+  'El cliente no tiene mas dinero','El cliente no paga'
+];
 var R={nombre:'',rol:'',sheet:[],mesG:'actual',filtroA:'Todos',fCantidad:1,fCausa:'',verCausas:false,iv:null};
 
 function retActivar(nombre,rol){
